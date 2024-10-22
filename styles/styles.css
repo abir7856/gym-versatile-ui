@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Updock&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn {
+  background: tomato;
+  padding: 1rem 2rem;
+  border: 0;
+  color: white;
+  font-weight: 700;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+.btn2 {
+  background: none;
+  border: 1px solid white;
+}
+
+/* Header Part */
+header {
+  background: linear-gradient(180deg, #000000, #201f1f);
+  padding-top: 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 2rem;
+  font-style: italic;
+  color: tomato;
+}
+.header-menu a {
+  color: white;
+  text-decoration: none;
+}
+.header-menu {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(56, 55, 55, 0.568);
+  border-radius: 2rem;
+  padding: 10px 5px;
+}
+.header-menu li {
+  list-style: none;
+  padding-right: 1rem;
+}
+.header-menu > li:first-child a {
+  background: tomato;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+/* Banner part  */
+#banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 2rem;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 30%;
+}
+.banner-text > h1 {
+  color: white;
+  font-size: 5rem;
+}
+.banner-text span {
+  font-family: "Updock", cursive;
+}
+.banner-text > p {
+  color: #fff8;
+}
+
+.banner-btn {
+  display: flex;
+  gap: 1rem;
+}
